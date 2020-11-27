@@ -1,0 +1,128 @@
+[
+  {
+    "source": "^Message displayed Login Successfully$",
+    "steps": [
+      {
+        "name": "Message displayed Login Successfully",
+        "aggregatedDurations": {
+          "median": 0.6700878,
+          "average": 0.6700878
+        },
+        "durations": [
+          {
+            "duration": 0.6700878,
+            "location": "login_test.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters Credentials to LogIn$",
+    "steps": [
+      {
+        "name": "User enters Credentials to LogIn",
+        "aggregatedDurations": {
+          "median": 12.2225738,
+          "average": 12.2225738
+        },
+        "durations": [
+          {
+            "duration": 12.2225738,
+            "location": "login_test.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Navigate to LogIn Page$",
+    "steps": [
+      {
+        "name": "User Navigate to LogIn Page",
+        "aggregatedDurations": {
+          "median": 6.0000348,
+          "average": 6.0000348
+        },
+        "durations": [
+          {
+            "duration": 6.0000348,
+            "location": "login_test.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User perform get method$",
+    "steps": [
+      {
+        "name": "User perform get method",
+        "aggregatedDurations": {
+          "median": 0.0000268,
+          "average": 0.0000268
+        },
+        "durations": [
+          {
+            "duration": 0.0000268,
+            "location": "service_test.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^retrieve places$",
+    "steps": [
+      {
+        "name": "retrieve places",
+        "aggregatedDurations": {
+          "median": 0.0000177,
+          "average": 0.0000177
+        },
+        "durations": [
+          {
+            "duration": 0.0000177,
+            "location": "service_test.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User in Google API page$",
+    "steps": [
+      {
+        "name": "User in Google API page",
+        "aggregatedDurations": {
+          "median": 1.2816,
+          "average": 1.2816
+        },
+        "durations": [
+          {
+            "duration": 1.2816,
+            "location": "service_test.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is on Home Page$",
+    "steps": [
+      {
+        "name": "User is on Home Page",
+        "aggregatedDurations": {
+          "median": 6.5565326,
+          "average": 6.5565326
+        },
+        "durations": [
+          {
+            "duration": 6.5565326,
+            "location": "login_test.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

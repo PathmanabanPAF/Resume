@@ -1,0 +1,15 @@
+Feature: Login Action
+
+  @regression @login
+  Scenario: Successful Login with Valid Credentials [90m# login_test.feature:4[0m
+    [32mGiven [0m[32mUser is on Home Page[0m                      [90m# Test_Steps.user_is_on_Home_Page()[0m
+    [32mWhen [0m[32mUser Navigate to LogIn Page[0m                [90m# Test_Steps.user_Navigate_to_LogIn_Page()[0m
+    [32mAnd [0m[32mUser enters Credentials to LogIn[0m            [90m# Test_Steps.user_enters_Credentials_to_LogIn(Credentials>)[0m
+    [32mThen [0m[32mMessage displayed Login Successfully[0m       [90m# Test_Steps.message_displayed_Login_Successfully()[0m
+Feature: Service testing
+
+  @regression @service
+  Scenario: Test webdervice       [90m# service_test.feature:4[0m
+    [32mGiven [0m[32mUser in Google API page[0m [90m# Service_test.user_in_Google_API_page()[0m
+    [32mWhen [0m[32mUser perform get method[0m  [90m# Service_test.user_perform_get_method()[0m
+    [32mThen [0m[32mretrieve places[0m          [90m# Service_test.retrieve_places()[0m

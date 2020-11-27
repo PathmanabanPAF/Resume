@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="26.730873">
+<testcase classname="Login Action" name="Successful Login with Valid Credentials" time="25.449229">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to LogIn Page............................................passed
+And User enters Credentials to LogIn........................................passed
+Then Message displayed Login Successfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Service testing" name="Test webdervice" time="1.281644">
+<system-out><![CDATA[Given User in Google API page...............................................passed
+When User perform get method................................................passed
+Then retrieve places........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
